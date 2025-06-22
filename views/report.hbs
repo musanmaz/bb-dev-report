@@ -1,0 +1,16 @@
+<h2>Developer Code Stats</h2>
+<table border="1" cellpadding="5">
+  <thead>
+    <tr><th>Developer</th><th>Commits</th><th>Lines Added</th><th>Lines Removed</th></tr>
+  </thead>
+  <tbody>
+    {{#each stats}}
+      <tr>
+        <td>{{@key}}</td>
+        <td>{{this.commits}}</td>
+        <td>{{this.added}}</td>
+        <td>{{this.removed}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

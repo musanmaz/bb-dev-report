@@ -1,0 +1,26 @@
+{
+  "key": "bb-dev-report",
+  "name": "Bitbucket Developer Report",
+  "baseUrl": "https://f660-95-70-145-139.ngrok-free.app",
+  "apiVersion": 1,
+  "authentication": {
+    "type": "jwt"
+  },
+  "scopes": [
+    "account", 
+    "repository", 
+    "pullrequest", 
+    "webhook"
+  ],
+  "modules": {
+    "repoPages": [
+      {
+        "url": "/report?repo={repository.full_name}",
+        "key": "dev-report",
+        "name": {
+          "value": "Developer Report"
+        }
+      }
+    ]
+  }
+}
