@@ -1,7 +1,7 @@
 {
   "key": "bb-dev-report",
   "name": "Bitbucket Developer Report",
-  "baseUrl": "https://f660-95-70-145-139.ngrok-free.app",
+  "baseUrl": "https://bb-dev-report.onrender.com",
   "apiVersion": 1,
   "authentication": {
     "type": "jwt"
